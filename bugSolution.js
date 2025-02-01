@@ -1,0 +1,1 @@
+function foo(a,b){if(typeof a === 'number' && typeof b === 'number'){return a+b;}else{return "Error: Invalid data types";} }let x = foo(1,2);console.log(x); // Output: 3let y = foo(1, "2");console.log(y); // Output: Error: Invalid data types
